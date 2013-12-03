@@ -27,5 +27,5 @@ var slices = 6;
 var people =10;
 //Number of pizzas ordered
 var pizzas = 2;
-//Number of slices per person
-var slicerPerPerson;
+//Calculated number of slices per person
+var slicerPerPerson = pizzas * slices / people;

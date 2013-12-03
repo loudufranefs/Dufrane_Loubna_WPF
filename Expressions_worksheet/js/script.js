@@ -6,7 +6,7 @@ Assignment: Expression Worksheet
 
 
 
-// DOG YEARS
+/*************DOG YEARS****************/
 
 //set given for age in human years.
 var humanYears = 2;
@@ -19,13 +19,20 @@ console.log("Sparky is " + humanYears + " human years old which is " + dogYears 
 
 
 
-// Slice of Pie Part 1
+/*************SLICES OF PIE PART 1****************/
 
 //Number of slices per pizza
 var slices = 6;
 //Number of people at the party
 var people =10;
 //Number of pizzas ordered
-var pizzas = 2;
+var pizzas = 3;
+
 //Calculated number of slices per person
-var slicerPerPerson = pizzas * slices / people;
+var slicesPerPerson = pizzas * slices / people;
+
+//print out result
+console.log ("Each person ate " + slicesPerPerson + " slices of pizza at the party.");
+
+
+

@@ -4,8 +4,6 @@ Class: Web Programming Fundamentals
 Assignment: Expression Worksheet
 */
 
-
-
 /*************DOG YEARS****************/
 
 //set given for age in human years.
@@ -18,26 +16,47 @@ var dogYears = 7 * humanYears;
 console.log("Sparky is " + humanYears + " human years old which is " + dogYears + " in dog years.");
 
 
-
 /*************SLICES OF PIE PART 1****************/
 
 //Number of slices per pizza
 var slices = 8;
 //Number of people at the party
-var people =10;
+var people = 10;
 //Number of pizzas ordered
 var pizzas = 4;
 
-//Calculated number of slices per person
+//Calculates number of slices per person
 var slicesPerPerson = pizzas * slices / people;
 
-//print out result 
-console.log ("Each person ate " + slicesPerPerson + " slices of pizza at the party.");
+//print out result
+console.log("Each person ate " + slicesPerPerson + " slices of pizza at the party.");
 
 
 /*************SLICES OF PIE PART 2****************/
-//calculate the number of slices per person and get the remainder.
+
+//calculates the number of slices per person and get the remainder.
 var leftOvers = pizzas * slices % people;
 
+//print out result
 console.log("Sparky got " + leftOvers + " slices of pizza.");
+
+
+/*************Average Shopping Bill****************/
+
+//five weeky grocery totals
+var weeklyGrocery = [89, 130, 110, 140, 95];
+
+//total amount spent on groceries
+var totalGroceries =
+    weeklyGrocery[0] + 
+    weeklyGrocery[1] + 
+    weeklyGrocery[2] + 
+    weeklyGrocery[3] + 
+    weeklyGrocery[4];
+
+//calculates average weekly grocery spending
+var averageGroceries = totalGroceries / 5;
+
+//print out result
+console.log("You have spent a total of $" + totalGroceries + " on groceries over 5 weeks. That is an average of $" + averageGroceries + " per week.");
 

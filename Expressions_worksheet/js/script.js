@@ -16,3 +16,16 @@ var dogYears = 7 * humanYears;
 
 //print out the result
 console.log("Sparky is " + humanYears + " human years old which is " + dogYears + " in dog years.");
+
+
+
+// Slice of Pie Part 1
+
+//Number of slices per pizza
+var slices = 6;
+//Number of people at the party
+var people =10;
+//Number of pizzas ordered
+var pizzas = 2;
+//Number of slices per person
+var slicerPerPerson;

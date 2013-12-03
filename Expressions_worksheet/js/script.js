@@ -48,10 +48,10 @@ var weeklyGrocery = [89, 130, 110, 140, 95];
 
 //total amount spent on groceries
 var totalGroceries =
-    weeklyGrocery[0] + 
-    weeklyGrocery[1] + 
-    weeklyGrocery[2] + 
-    weeklyGrocery[3] + 
+    weeklyGrocery[0] +
+    weeklyGrocery[1] +
+    weeklyGrocery[2] +
+    weeklyGrocery[3] +
     weeklyGrocery[4];
 
 //calculates average weekly grocery spending
@@ -60,3 +60,17 @@ var averageGroceries = totalGroceries / 5;
 //print out result
 console.log("You have spent a total of $" + totalGroceries + " on groceries over 5 weeks. That is an average of $" + averageGroceries + " per week.");
 
+
+/*************Discounts ****************/
+
+// setting orginal price
+var price = 9.99;
+
+// setting Discount Percentage
+var discount = 20;
+
+// description of item
+var itemDescription = "Dog toy";
+
+// setting sales tax percentage
+var salesTax = 8.25;

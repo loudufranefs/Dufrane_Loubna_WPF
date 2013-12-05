@@ -33,6 +33,9 @@ var marginWidth = 100 * (margin * 2 / parentContainer);
 //convert border from pixels to percentage / needs to be multiplied by 2 to get left and right borders.
 var borderWidth = 100 * (border * 2 / parentContainer);
 
+//get actual width for the container based on the CSS box model
+var contentWidth = containerWidth - (paddingWidth + marginWidth + borderWidth);
+
 //print values in console for testing
-console.log("Parent Container: " + parentContainer + "px\nContainer: " + container + "px\nPadding: " + padding + "px\nMargin: " + margin + "px\nBorder: " + border + "px\nContainer Width: " + containerWidth + "%\nPadding: " + paddingWidth + "%\nMargin: " + marginWidth + "%\nBorder: " + borderWidth + "%");
+console.log("Parent Container: " + parentContainer + "px\nContainer: " + container + "px\nPadding: " + padding + "px\nMargin: " + margin + "px\nBorder: " + border + "px\Box Width: " + containerWidth + "%\nPadding: " + paddingWidth + "%\nMargin: " + marginWidth + "%\nBorder: " + borderWidth + "%\nContainer: " + contentWidth + "%");
 

@@ -25,8 +25,9 @@ var jellyBeanLength = prompt("What is the length of the average jelly bean in in
 var widthHeight = [jarHeight, jarWidth, jellyBeanLength, jellyBeanWidth];
 
 //calculate the volume of the jar in cubic inches -  πr2h, since we have a diameter, we use πdh
-var jarVolume = 3.142 * jarWidth * jarHeight;
+var jarVolume = 3.142 * widthHeight[1] * widthHeight[0];
 
 //calculate the size of an average jelly bean in cubic inches -  πr2h
-var jellyBeanSize = 3.142 * jellyBeanWidth * jellyBeanLength;
+var jellyBeanSize = 3.142 * widthHeight[3] * widthHeight[2];
+
 

@@ -27,6 +27,6 @@ var widthHeight = [jarHeight, jarWidth, jellyBeanLength, jellyBeanWidth];
 //calculate the volume of the jar in cubic inches -  πr2h, since we have a diameter, we use πdh
 var jarVolume = 3.142 * jarWidth * jarHeight;
 
-//calculate the volume of a an average jelly bean in cubic inches -  πr2h
+//calculate the size of an average jelly bean in cubic inches -  πr2h
 var jellyBeanSize = 3.142 * jellyBeanWidth * jellyBeanLength;
 

@@ -20,3 +20,6 @@ var width = prompt("Desired Width:");
 
 // length of desired afghan
 var length = prompt("Desired Length:");
+
+// calculate stiches per row
+var stitchesRow = stichesInch * width;

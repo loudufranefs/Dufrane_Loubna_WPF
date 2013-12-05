@@ -23,13 +23,12 @@ var widthHeight = [jarHeight, jarWidth, jellyBeanLength, jellyBeanWidth];
 
 //calculate the radius for the jar
 var jarRaduis = widthHeight[1] / 2;
-console.log(jarRaduis);
 
 //calculate the volume of the jar in cubic cm -  πr2h
 var jarVolume = 3.142 * (jarRaduis * jarRaduis) * widthHeight[0];
 
 //calculate the radius of a jellybean
-var jellyBeanRadius = widthHeight[3]/2;
+var jellyBeanRadius = widthHeight[3] / 2;
 
 //calculate the size of an average jelly bean in cubic cm -  πr2h
 var jellyBeanSize = 3.142 * (jellyBeanRadius * jellyBeanRadius) * widthHeight[2];
@@ -41,6 +40,6 @@ var spaceInJar = jarVolume * 0.7;
 var totalJellyBeans = jellyBeanSize * spaceInJar;
 
 //print out result
-console.log("There are approximately " + totalJellyBeans + " Jelly Beans inside this jar. This is an estimate only! \n\n Details:\nJar Volume: " + jarVolume + " cubic cm \nAverage Jelly Bean Volume: " + jellyBeanSize + " cubic cm \nJelly Beans take up: " + spaceInJar + " cubic cm in the jar \n");
+console.log("There are approximately " + totalJellyBeans + " Jelly Beans inside this jar. This is an estimate only!");
 
 

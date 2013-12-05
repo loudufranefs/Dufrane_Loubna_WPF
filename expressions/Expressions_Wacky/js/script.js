@@ -30,4 +30,7 @@ var jarVolume = 3.142 * widthHeight[1] * widthHeight[0];
 //calculate the size of an average jelly bean in cubic inches -  πr2h
 var jellyBeanSize = 3.142 * widthHeight[3] * widthHeight[2];
 
+//calculate actual space the jellybeans are using in the jar. There is space in between solids in a jar, on average only taking up 70%.
+var spaceInJar = jarVolume * 0.7;
+
 

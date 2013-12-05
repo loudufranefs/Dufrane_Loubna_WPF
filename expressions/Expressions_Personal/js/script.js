@@ -33,5 +33,5 @@ var totalYarn = length * rowsInch * stitchesRow;
 var skeinsNeeded = (totalYarn / 36) / skein;
 
 //print out Details
-console.log("DETAILS:\nOneBall of Yarn is: " + skein + "yds\nStiches per Inch: " + stitchesInch + "\nRows per Inch: " + rowsInch + "\nWidth: " + width + "inches\nLength: " + length + "inches\nStiches Per Row: " + stitchesRow + "\nYarn needed: " + totalYarn + "inches\nSkeins: " + skeinsNeeded);
+console.log("DETAILS:\nOne Ball of Yarn is: " + skein + "yds\nStiches per Inch: " + stitchesInch + "\nRows per Inch: " + rowsInch + "\nWidth: " + width + "inches\nLength: " + length + "inches\nStiches Per Row: " + stitchesRow + "\nYarn needed: " + totalYarn + "inches\nSkeins: " + skeinsNeeded);
 

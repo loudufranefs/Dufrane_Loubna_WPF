@@ -33,5 +33,5 @@ var totalYarn = length * rowsInch * stitchesRow;
 var skeinsNeeded = (totalYarn / 36) / skein;
 
 //print out Details
-console.log("To crochet an afghan that is " + width + " inches in width and " + length + " inches in length, you will need " + skeinsNeeded + " amount of balls of yarn." + "\n\nProject Details:\nOne Ball of Yarn is: " + skein + "yds\nStiches per Inch: " + stitchesInch + "\nRows per Inch: " + rowsInch + "\nWidth: " + width + "inches\nLength: " + length + "inches\nStiches Per Row: " + stitchesRow + "\nYarn needed: " + totalYarn + "inches\nSkeins: " + skeinsNeeded);
+console.log("To crochet an afghan that is " + width + " inches in width and " + length + " inches in length, you will need " + skeinsNeeded + " amount of balls of yarn." + "\n\nProject Details:\nOne Ball of Yarn is: " + skein + " yds\nWidth: " + width + " inches\nLength: " + length + " inches\nStiches Per Row: " + stitchesRow + "\nYarn needed: " + totalYarn + " inches\nBalls of Yarn: " + skeinsNeeded);
 

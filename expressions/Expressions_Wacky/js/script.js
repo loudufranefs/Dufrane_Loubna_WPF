@@ -20,3 +20,8 @@ var jellyBeanWidth = prompt("What is the width of the average jelly bean in inch
 
 //get jellybean length
 var jellyBeanLength = prompt("What is the length of the average jelly bean in inches.");
+
+//add all my variables in an array.
+
+var widthHeight = [jarHeight, jarWidth, jellyBeanLength, jellyBeanWidth];
+

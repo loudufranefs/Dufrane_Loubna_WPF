@@ -15,9 +15,6 @@ var jarWidth = prompt("What is the jar width in inches?");
 //get jellybean width
 var jellyBeanWidth = prompt("What is the length of the average jelly bean in inches.");
 
-//get jellybean width
-var jellyBeanWidth = prompt("What is the width of the average jelly bean in inches.");
-
 //get jellybean length
 var jellyBeanLength = prompt("What is the length of the average jelly bean in inches.");
 
@@ -35,5 +32,8 @@ var spaceInJar = jarVolume * 0.7;
 
 //calculate how many jelly beans are in the jar.
 var totalJellyBeans = jellyBeanLength * spaceInJar;
+
+//print out result
+console.log("There are approximately " + totalJellyBeans + "amount of Jelly Beans inside this jar. This is an estimate only!");
 
 

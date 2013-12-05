@@ -21,8 +21,7 @@ var margin = prompt("Margin in pixels:");
 // border in  pixels
 var border = prompt("Border in pixels:");
 
-// calculate width for left and right padding, margin and border 
-var outsideContentWidth = 2 * (Number(padding) + Number(margin) + Number(border));
+
 
 //print values in console for testing
 console.log("Parent Container: " + parentContainer + "px\nContainer: " + container + "px\nPadding: " + padding + "px\nMargin: " + margin + "px\nBorder: " + border + "px\nWidth outside Content: " + outsideContentWidth + "px");

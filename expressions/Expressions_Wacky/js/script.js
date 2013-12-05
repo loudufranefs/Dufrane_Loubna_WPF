@@ -11,3 +11,6 @@ var jarHeight = prompt("Want to make a winning guess at a Jelly Bean in a Jar co
 
 //get jar width
 var jarWidth = prompt ("What is the jar width in inches?");
+
+//get jellybean width
+var jellyBeanWidth = prompt("What is the length of the average jelly bean in inches.");

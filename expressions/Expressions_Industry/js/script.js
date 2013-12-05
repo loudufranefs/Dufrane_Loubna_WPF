@@ -24,12 +24,15 @@ var border = prompt("Border in pixels:");
 // convert container width from pixels to percentages
 var containerWidth = 100 * (container / parentContainer);
 
-//convert padding from pixels to percentage
+//convert padding from pixels to percentage / needs to be multiplied by 2 to get left and right paddings.
 var paddingWidth = 100 * (padding * 2 / parentContainer);
 
-//convert margin from pixels to percentage
+//convert margin from pixels to percentage / needs to be multiplied by 2 to get left and right margins.
 var marginWidth = 100 * (margin * 2 / parentContainer);
 
+//convert border from pixels to percentage / needs to be multiplied by 2 to get left and right borders.
+var borderWidth = 100 * (border * 2 / parentContainer);
+
 //print values in console for testing
-console.log("Parent Container: " + parentContainer + "px\nContainer: " + container + "px\nPadding: " + padding + "px\nMargin: " + margin + "px\nBorder: " + border + "px\nContainer Width: " + containerWidth + "%\nPadding: " + paddingWidth + "%\nMargin: " + marginWidth + "%");
+console.log("Parent Container: " + parentContainer + "px\nContainer: " + container + "px\nPadding: " + padding + "px\nMargin: " + margin + "px\nBorder: " + border + "px\nContainer Width: " + containerWidth + "%\nPadding: " + paddingWidth + "%\nMargin: " + marginWidth + "%\nBorder: " + borderWidth + "%");
 

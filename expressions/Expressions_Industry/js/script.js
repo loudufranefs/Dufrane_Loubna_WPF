@@ -12,8 +12,11 @@ var parentContainer = prompt("Width of the parent container in pixels:");
 // width of container in pixels
 var container = prompt("Total width of your container in pixels:");
 
-// left and right padding in pixels
+//padding in pixels
 var padding = prompt("Padding in pixels: ");
 
-// left and right margins in pixels
+// margins in pixels
 var margin = prompt("Margin in pixels:");
+
+// border in  pixels
+var border = prompt("Border in pixels:");

@@ -25,7 +25,8 @@ var length = prompt("Desired Length:");
 var stitchesRow = stitchesInch * width;
 
 // calculate total stitches
-var totalStiches = length * rowsInch * stitchesRow;
+var totalYarn = length * rowsInch * stitchesRow;
 
 //print out for testing
-console.log("Stiches per Inch: " + stitchesInch + "\nRows per Inch: " + rowsInch + "\nWidth: " + width + "\nLength: " + length + "\nStiches Per Row: " + stitchesRow + "\nInches of Yarn needed: " + totalStiches);
+console.log("Stiches per Inch: " + stitchesInch + "\nRows per Inch: " + rowsInch + "\nWidth: " + width + "\nLength: " + length + "\nStiches Per Row: " + stitchesRow + "\nInches of Yarn needed: " + totalYarn);
+

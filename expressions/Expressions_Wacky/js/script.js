@@ -33,4 +33,7 @@ var jellyBeanSize = 3.142 * widthHeight[3] * widthHeight[2];
 //calculate actual space the jellybeans are using in the jar. There is space in between solids in a jar, on average only taking up 70%.
 var spaceInJar = jarVolume * 0.7;
 
+//calculate how many jelly beans are in the jar.
+var totalJellyBeans = jellyBeanLength * spaceInJar;
+
 

@@ -21,11 +21,18 @@ var jellyBeanLength = prompt("What is the length of the average jelly bean in in
 //add all my variables in an array.
 var widthHeight = [jarHeight, jarWidth, jellyBeanLength, jellyBeanWidth];
 
-//calculate the volume of the jar in cubic inches -  πr2h, since we have a diameter, we use πdh
-var jarVolume = 3.142 * widthHeight[1] * widthHeight[0];
+//calculate the radius for the jar
+var jarRaduis = widthHeight[1] / 2;
+console.log(jarRaduis);
+
+//calculate the volume of the jar in cubic inches -  πr2h
+var jarVolume = 3.142 * (jarRaduis * jarRaduis) * widthHeight[0];
+
+//calculate the radius of a jellybean
+var jellyBeanRadius = widthHeight[3]/2;
 
 //calculate the size of an average jelly bean in cubic inches -  πr2h
-var jellyBeanSize = 3.142 * widthHeight[3] * widthHeight[2];
+var jellyBeanSize = 3.142 * (jellyBeanRadius * jellyBeanRadius) * widthHeight[2];
 
 //calculate actual space the jellybeans are using in the jar. There is space in between solids in a jar, on average only taking up 70%.
 var spaceInJar = jarVolume * 0.7;

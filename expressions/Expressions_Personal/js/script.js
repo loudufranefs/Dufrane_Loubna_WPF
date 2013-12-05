@@ -34,4 +34,3 @@ var skeinsNeeded = totalYarn / skein;
 
 //print out Details
 console.log("To crochet an afghan that is " + width + " inches in width and " + length + " inches in length, you will need " + skeinsNeeded + " amount of balls of yarn that are " + skein + " yds each." + "\n\nProject Details:\nOne Ball of Yarn is: " + skein + " yds\nWidth: " + width + " inches\nLength: " + length + " inches\nStiches Per Row: " + stitchesRow + "\nYarn needed: " + totalYarn + " yds\nBalls of Yarn: " + skeinsNeeded);
-

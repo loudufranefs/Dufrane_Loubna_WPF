@@ -27,6 +27,7 @@ var stitchesRow = stitchesInch * width;
 // calculate total stitches
 var totalYarn = length * rowsInch * stitchesRow;
 
-//print out for testing
-console.log("Stiches per Inch: " + stitchesInch + "\nRows per Inch: " + rowsInch + "\nWidth: " + width + "\nLength: " + length + "\nStiches Per Row: " + stitchesRow + "\nInches of Yarn needed: " + totalYarn);
+
+//print out Details
+console.log("DETAILS:\nOneBall of Yarn is: " + skein + "yds\nStiches per Inch: " + stitchesInch + "\nRows per Inch: " + rowsInch + "\nWidth: " + width + "inches\nLength: " + length + "inches\nStiches Per Row: " + stitchesRow + "\nInches of Yarn needed: " + totalYarn);
 

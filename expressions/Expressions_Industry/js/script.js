@@ -20,3 +20,9 @@ var margin = prompt("Margin in pixels:");
 
 // border in  pixels
 var border = prompt("Border in pixels:");
+
+
+
+//print values in console for testing
+console.log("Parent Container: " + parentContainer + "px\nContainer: " + container + "px\nPadding: " + padding + "px\nMargin: " + margin + "px\nBorder: " + border + "px");
+

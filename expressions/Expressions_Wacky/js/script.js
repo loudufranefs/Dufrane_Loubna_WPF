@@ -3,5 +3,5 @@ Name: Loubna Dufrane
 Class: Web Programming Fundamentals
 Assignment: Expressions - Wacky
 
-Description:
+Description: Estimate how many Jelly Beans are in a Jar and win the contest.
 */

@@ -9,10 +9,10 @@ Description: Calculate how many balls of yarn to buy to complete an afghan based
 // yards per skein
 var skein = prompt("How many yards is your ball of yarn?");
 
-// stitches per inch with the hook being used
+// stitches per inch (this is based on the crochet hook and type of yarn)
 var stitchesInch = prompt("How many stiches per inch with your hook?");
 
-// Rows per inch
+// Rows per inch (Again based on the crochet hook and type of yard)
 var rowsInch = prompt("How many rows are created per inch?");
 
 // width of desired afghan
@@ -22,4 +22,10 @@ var width = prompt("Desired Width:");
 var length = prompt("Desired Length:");
 
 // calculate stiches per row
-var stitchesRow = stichesInch * width;
+var stitchesRow = stitchesInch * width;
+
+// calculate total stitches
+var totalStiches = length * rowsInch * stitchesRow;
+
+//print out for testing
+console.log("Stiches per Inch: " + stitchesInch + "\nRows per Inch: " + rowsInch + "\nWidth: " + width + "\nLength: " + length + "\nStiches Per Row: " + stitchesRow + "\nInches of Yarn needed: " + totalStiches);

@@ -36,6 +36,6 @@ var borderWidth = 100 * (border * 2 / parentContainer);
 //get actual width for the container based on the CSS box model
 var contentWidth = containerWidth - (paddingWidth + marginWidth + borderWidth);
 
-//print values in console for testing
-console.log("Parent Container: " + parentContainer + "px\nContainer: " + container + "px\nPadding: " + padding + "px\nMargin: " + margin + "px\nBorder: " + border + "px\Box Width: " + containerWidth + "%\nPadding: " + paddingWidth + "%\nMargin: " + marginWidth + "%\nBorder: " + borderWidth + "%\nContainer: " + contentWidth + "%");
+//Print results
+console.log("Based on your pixel values, your container should have a width of "  + contentWidth + "%, a padding of "  + paddingWidth + "%, a margin of "  + marginWidth + "%, and a border of "  + borderWidth + "%. in CSS your values would be converted to:\n\n .container{\n     width:" + contentWidth + "%; \n     padding:" + paddingWidth + "%;\n     margin:"  + marginWidth + "%;\n     border:" + borderWidth + "%;\n}");
 

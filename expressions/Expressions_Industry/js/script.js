@@ -27,7 +27,9 @@ var containerWidth = 100 * (container / parentContainer);
 //convert padding from pixels to percentage
 var paddingWidth = 100 * (padding * 2 / parentContainer);
 
+//convert margin from pixels to percentage
+var marginWidth = 100 * (margin * 2 / parentContainer);
 
 //print values in console for testing
-console.log("Parent Container: " + parentContainer + "px\nContainer: " + container + "px\nPadding: " + padding + "px\nMargin: " + margin + "px\nBorder: " + border + "px\nContainer Width: " + containerWidth + "%\nPadding: " + paddingWidth + "%");
+console.log("Parent Container: " + parentContainer + "px\nContainer: " + container + "px\nPadding: " + padding + "px\nMargin: " + margin + "px\nBorder: " + border + "px\nContainer Width: " + containerWidth + "%\nPadding: " + paddingWidth + "%\nMargin: " + marginWidth + "%");
 

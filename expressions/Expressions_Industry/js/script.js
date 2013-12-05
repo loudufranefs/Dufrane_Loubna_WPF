@@ -40,5 +40,5 @@ var borderWidth = 100 * (border * 2 / parentContainer);
 var contentWidth = containerWidth - (paddingWidth + marginWidth + borderWidth);
 
 //Print results
-console.log("The class ." + containerName + " will have a width of "  + contentWidth + "%, a padding of "  + paddingWidth + "%, a margin of "  + marginWidth + "%, and a border of "  + borderWidth + "%. The css box will have a total width of "  + containerWidth + "%. In CSS your converted values would look like this:\n\n ." + containerName + "{\n     width: " + contentWidth + "%; \n     padding: " + paddingWidth + "%;\n     margin: "  + marginWidth + "%;\n     border: " + borderWidth + "%;\n}");
+console.log("The class ." + containerName + " will have a width of "  + contentWidth + "%, a padding of "  + paddingWidth + "%, a margin of "  + marginWidth + "%, and a border of "  + borderWidth + "%. The total box width of this class will be "  + containerWidth + "%. In CSS your converted values would look like this:\n\n ." + containerName + "{\n     width: " + contentWidth + "%; \n     padding: " + paddingWidth + "%;\n     margin: "  + marginWidth + "%;\n     border: " + borderWidth + "%;\n}");
 

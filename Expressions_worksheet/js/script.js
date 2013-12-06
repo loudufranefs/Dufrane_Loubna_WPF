@@ -1,7 +1,7 @@
 /*
 Name: Loubna Dufrane
 Class: Web Programming Fundamentals
-Assignment: Expression Worksheet
+Assignment: Expressions Worksheet
 */
 
 /*************DOG YEARS****************/

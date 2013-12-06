@@ -78,7 +78,7 @@ var salesTax = 0.0825;
 
 
 // calculates price of item without tax
-var withoutTax = price - (price * discount/100);
+var withoutTax = price - (price * discount / 100);
 
 // calculates price of item with tax
 var withTax = withoutTax * salesTax + withoutTax;

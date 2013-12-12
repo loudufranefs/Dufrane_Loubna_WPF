@@ -49,6 +49,10 @@ var enterUsername = prompt("Enter Username:"),
     user = "admin",
     password = "123456";
 
+//if username is correct
+if (enterUsername === user){
+    console.log("Welcome," +  user +" !");
+}
 
 
 

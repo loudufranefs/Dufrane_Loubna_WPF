@@ -38,4 +38,13 @@ if (unit === "C") {
     //If niether of those values were entered
     unit = prompt("Please type in F for Fahrenheit or C for Celsius in captial letters.");
 }
-    
+
+
+
+/* Group 2 - check login */
+
+var user = "admin",
+    password = "123456";
+
+
+

@@ -13,18 +13,27 @@ var degrees = prompt("Type in the degree to convert without unit."),
     convertF;
 
 //check if degree value is a number or not
-if (degrees === NaN) {
+if (degrees === isNaN) {
     
-    //if the value for this variable was not a number, then give the user another chance to re-enter.
+    //if the value for this variable is not a number, then give the user another chance to re-enter.
     degrees = prompt("Please enter a number for the degree you want to convert");
     
-}else{
+} else {
+    //the value for the variable degree is a number
     
-    if(unit === "C") {
+    
+    if (unit === "C") {
         // if user enters "C" let's convert the number to celcius
         convertC = (degrees - 32) * 5 / 9;
         //print in console the converted value
         console.log("The temperature is " + convertC + " degrees Fahrenheit.");
+    
+    } else if (unit === "F") {
+        // if user enters "F" let's convert the number to Fahrenheit
+        convertF = degrees * 5 / 9 + 32;
+        //print in console the converted value
+        console.log("The temperature is " + convertF + " degrees Celcius.");
+        
 
     } else {
         //If niether of those values were entered

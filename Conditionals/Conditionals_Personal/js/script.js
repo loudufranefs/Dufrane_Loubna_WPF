@@ -17,6 +17,9 @@ And if the food was horrible with a rating of 5 or under, and the service was ho
 
 //givens
 var food = prompt("Rate the food from 1 to 10:"),
-    service = prompt("Rate the service from 1 to 10");
+    service = prompt("Rate the service from 1 to 10"),
+    price = prompt("What is the total bill? (without dollar sign)");
+
+//Find out if the food and the service was good
 
 

@@ -29,12 +29,17 @@ if (food > 5 && service > 5) {
     var totalBill = Number(price) + tip;
     
     //print message that the food and the service were great
-    console.log("Thank you for lovely food and a wonderful service! \n I will leave a $" + tip + ", making my total bill $" + totalBill);
+    console.log("Thank you for lovely food and a wonderful service! \nI will leave a $" + tip + ", making my total bill $" + totalBill);
 
 } else if (food <= 5 || service <= 5) {
     //if food or the service had a rating of equal to or under 5
     
+    // calculate how much the tip would be
+    var tip = Number(price) * 0.15;
+    //calculate total bill
+    var totalBill = Number(price) + tip;
+    
      //print message that the food and the service were ok
-    console.log("Thanks, it was ok! \n I will leave a $" + tip + ", making my total bill $" + totalBill);
+    console.log("Thanks, it was ok! \nI will leave a $" + tip + ", making my total bill $" + totalBill);
 
 }

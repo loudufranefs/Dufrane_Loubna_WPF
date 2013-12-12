@@ -5,7 +5,7 @@ Class: Web Programming Fundamentals
 Assignment: Conditionals Worksheet
 */
 
-/* Group 1 - Celsius to Fahrenheit converter */
+/* Group 1 - Celsius to Fahrenheit converter
 
 //givens
 var degrees = prompt("Type in the temperature to convert (numbers only)"),
@@ -39,7 +39,7 @@ if (unit === "C") {
     unit = prompt("Please type in F for Fahrenheit or C for Celsius in captial letters.");
 }
 
-
+ */
 
 /* Group 2 - check login */
 
@@ -50,8 +50,12 @@ var enterUsername = prompt("Enter Username:"),
     password = "123456";
 
 //if username is correct
-if (enterUsername === user){
-    console.log("Welcome," +  user +" !");
+if (enterUsername === user && enterPassword === password) {
+    console.log("Welcome, " +  user + " !");
+} else if (enterUsername !== user) {
+
+    //if username is not correct
+    console.log("User not found. Try again.");
 }
 
 

@@ -19,4 +19,8 @@ if (wordPress === 'Y' && daysLeft <= 5) {
     //print message with discount
     console.log("Nice! You get a 10% Discount on your Total Order!");
 
+} else if (daysLeft <= 5) {
+    //check if their quote is still valid
+    //print message with discount
+    console.log("Good News! You get a 5% Discount on your Total Order!");
 }

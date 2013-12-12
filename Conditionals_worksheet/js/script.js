@@ -41,7 +41,7 @@ if (unit === "C") {
 
  */
 
-/* Group 2 - check login */
+/* Group 2 - check login 
 
 //givens
 var enterUsername = prompt("Enter Username:"),
@@ -64,5 +64,7 @@ if (enterUsername === user && enterPassword === password) {
     console.log("Password does not match out records.");
 }
 
+*/
 
+/* Group 3 - Movie Ticket Price */
 

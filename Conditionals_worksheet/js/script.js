@@ -49,18 +49,19 @@ var enterUsername = prompt("Enter Username:"),
     user = "admin",
     password = "123456";
 
-//if username is correct
+    //if username is correct
 if (enterUsername === user && enterPassword === password) {
-    //add welcome message
+    //print our welcome message
     console.log("Welcome, " +  user + "!");
-    
-} else if (enterUsername !== user) {
 
-    //if username is not correct print message
+    // if username is not correct
+} else if (enterUsername !== user) {
+    //Print message that user is not found
     console.log("User not found. Try again.");
     
+    // if password is not correct
 } else if (enterPassword !== password) {
-    // if password is not correct, print message
+    // Print message that password does not match
     console.log("Password does not match out records.");
 }
 
@@ -85,9 +86,3 @@ if (age < 10 || age > 55 || (time >= 3 && time <= 5)) {
     // print message if the condition is not met
     console.log("The ticket price is $12");
 }
-
-
-
-
-
-

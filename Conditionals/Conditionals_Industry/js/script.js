@@ -23,4 +23,8 @@ if (wordPress === 'Y' && daysLeft <= 5) {
     //check if their quote is still valid
     //print message with discount
     console.log("Good News! You get a 5% Discount on your Total Order!");
+
+} else {
+    // if their quote has expired, there is no discount.
+    console.log("Sorry! There are no available discounts for your order.");
 }

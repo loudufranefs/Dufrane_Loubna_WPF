@@ -68,3 +68,16 @@ if (enterUsername === user && enterPassword === password) {
 
 /* Group 3 - Movie Ticket Price */
 
+
+//givens
+var age, time;
+
+//story
+// if a customer is under 10 or above 55 or
+// if the movie is between 3 and 5 pm  price is 7.
+// otherwise price is 12
+
+
+
+
+

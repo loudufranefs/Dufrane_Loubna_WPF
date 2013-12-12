@@ -52,13 +52,16 @@ var enterUsername = prompt("Enter Username:"),
 //if username is correct
 if (enterUsername === user && enterPassword === password) {
     //add welcome message
-    console.log("Welcome, " +  user + " !");
+    console.log("Welcome, " +  user + "!");
     
 } else if (enterUsername !== user) {
 
     //if username is not correct print message
     console.log("User not found. Try again.");
     
+} else if (enterPassword !== password) {
+    // if password is not correct, print message
+    console.log("Password does not match out records.");
 }
 
 

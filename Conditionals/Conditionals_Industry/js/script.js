@@ -12,7 +12,19 @@ If a client wants to add WordPress as their content management to their website 
 
 //setting variables
 var wordPress = prompt("Would you like to Add WordPress to your website, type in Y for yes or N for No."),
-    daysLeft = prompt("How many days are left before your quote expires?");
+    daysLeft = prompt("How many days ago did you get your quote?");
+
+//validation
+if (wordPress == ""){
+    // if wordPress is not filled out, prompt again
+    wordPress = prompt("You forgot to tell us if you want to user WordPress with your website: Y or N");
+}
+
+if (daysLeft == ""){
+    // if daysLeft is not filled out, prompt again
+    daysLeft = prompt("You forgot to add how many days ago you recieved a quote:");
+}
+
 
 //Check if clients wants wordpress and quote is still valid
 if (wordPress === 'Y' && daysLeft <= 5) {

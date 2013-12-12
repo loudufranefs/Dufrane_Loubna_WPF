@@ -43,8 +43,12 @@ if (unit === "C") {
 
 /* Group 2 - check login */
 
-var user = "admin",
+//givens
+var enterUsername = prompt("Enter Username:"),
+    enterPassword = prompt("Enter Password:"),
+    user = "admin",
     password = "123456";
+
 
 
 

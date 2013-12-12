@@ -5,4 +5,18 @@ Class: Web Programming Fundamentals
 Assignment: Conditionals - Personal
 */
 
-/* Personal Tip calculator based on my personal standards */
+/* Personal Tip calculator based on my personal standards-
+
+If the food is good with a rating of at least 6 and the waiter/waitress was friendly with a rating of at least 6 I will tip 30%
+
+However, if the food was good with a rating of at least 6 and the service was not very good with a rating of 5 or under, I will tip 15%
+
+And if the food was horrible with a rating of 5 or under, and the service was horrible with a rating of 5 or under, I will ask for the manager and tip 0%
+
+*/
+
+//givens
+var food = prompt("Rate the food from 1 to 10:"),
+    service = prompt("Rate the service from 1 to 10");
+
+

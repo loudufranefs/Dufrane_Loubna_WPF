@@ -75,11 +75,14 @@ var age = prompt("Type in your age:"),
 
 
 // if a customer is under 10 or above 55 or
-// if the movie is between 3 and 5 pm  price is 7.
-// otherwise price is 12
+// if the movie is between 3 and 5 pm  price is $7.
+// otherwise price is $12
+
 if (age < 10 || age > 55 || (time >= 3 && time <= 5)) {
+    // print message if condition is met
     console.log("The ticket price is $7");
 } else {
+    // print message if the condition is not met
     console.log("The ticket price is $12");
 }
 

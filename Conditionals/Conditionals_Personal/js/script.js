@@ -31,6 +31,13 @@ if (food > 5 && service > 5) {
     //print message that the food and the service were great
     console.log("Thank you for lovely food and a wonderful service! \nI will leave a $" + tip + ", making my total bill $" + totalBill);
 
+} else if (food <= 5 && service <= 5) {
+    // if food and service are both bad
+    
+    
+    //print message that the food and the service were bad
+    console.log("I would like to speak to the manager! \nI will leave a $" + tip + ", making my total bill $" + totalBill);
+
 } else if (food <= 5 || service <= 5) {
     //if food or the service had a rating of equal to or under 5
     

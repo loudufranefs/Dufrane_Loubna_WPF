@@ -21,10 +21,15 @@ var food = prompt("Rate the food from 1 to 10:"),
     price = prompt("What is the total bill? (without dollar sign)");
 
 //Find out if the food and the service was good
-if (food > 5 && service > 5){
+if (food > 5 && service > 5) {
+    
+    // calculate how much the tip would be
+    var tip = Number(price) * 0.3;
+    //calculate total bill
+    var totalBill = Number(price) + tip;
     
     //print message that the food and the service was great
-    console.log("Thank you for lovely food and a wonderful service!");
+    console.log("Thank you for lovely food and a wonderful service! \n I will leave a $" + tip + ", making my total bill $"+ totalBill);
 
 }
 

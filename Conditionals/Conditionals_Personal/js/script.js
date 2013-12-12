@@ -5,7 +5,7 @@ Class: Web Programming Fundamentals
 Assignment: Conditionals - Personal
 */
 
-/* Personal Tip calculator based on my personal standards-
+/* Personal Tip calculator based on overall experience at a restaurant.
 
 If the food is good with a rating of at least 6 and the waiter/waitress was friendly with a rating of at least 6 I will tip 30%
 
@@ -28,9 +28,13 @@ if (food > 5 && service > 5) {
     //calculate total bill
     var totalBill = Number(price) + tip;
     
-    //print message that the food and the service was great
-    console.log("Thank you for lovely food and a wonderful service! \n I will leave a $" + tip + ", making my total bill $"+ totalBill);
+    //print message that the food and the service were great
+    console.log("Thank you for lovely food and a wonderful service! \n I will leave a $" + tip + ", making my total bill $" + totalBill);
+
+} else if (food <= 5 || service <= 5) {
+    //if food or the service had a rating of equal to or under 5
+    
+     //print message that the food and the service were ok
+    console.log("Thanks, it was ok! \n I will leave a $" + tip + ", making my total bill $" + totalBill);
 
 }
-
-

@@ -23,3 +23,10 @@ function calcCircumference(r) {
 }
 //print result in console log
 console.log("The circumference of the circle is " + circCalc);
+
+//Stung!
+
+
+function killerBeeStings(){ // set up function
+
+}

@@ -15,12 +15,12 @@ var wordPress = prompt("Would you like to Add WordPress to your website, type in
     daysLeft = prompt("How many days ago did you get your quote?");
 
 //validation
-if (wordPress == ""){
+if (wordPress === ""){
     // if wordPress is not filled out, prompt again
     wordPress = prompt("You forgot to tell us if you want to user WordPress with your website: Y or N");
 }
 
-if (daysLeft == ""){
+if (daysLeft === ""){
     // if daysLeft is not filled out, prompt again
     daysLeft = prompt("You forgot to add how many days ago you recieved a quote:");
 }

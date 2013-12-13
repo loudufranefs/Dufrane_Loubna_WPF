@@ -14,14 +14,12 @@ var age = prompt("How old are you?"),
     candy;
 
 //check that prompt is not empty
-if (age == ""){
+if (age === "") {
     age = prompt("You forgot to say how old you are:");
 }
 
 // Decide which candy the child gets depending on the age
-candy = (age < youngChildren) ? ("You will get lollipops!") :("You will get Jelly Beans!");
+candy = (age < youngChildren) ? ("You will get lollipops!") : ("You will get Jelly Beans!");
 
 //print the message with the right candy
 console.log(candy);
-
-

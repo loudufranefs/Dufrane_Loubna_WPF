@@ -13,8 +13,11 @@ var circCalc = calcCircumference(20);
 //setup function
 function calcCircumference(r) {
     
+    // approximate pi
+    var pi = 3.14159;
+    
     //calculate circumference
-    var circumference = 2 * 3.142 * r;
+    var circumference = 2 * pi * r;
     //return the calculation
     return circumference;
 }

@@ -15,5 +15,7 @@ function calcCircumference(r) {
     
     //calculate circumference
     var circumference = 2 * 3.142 * r;
+    //return the calculation
+    return circumference;
 }
 

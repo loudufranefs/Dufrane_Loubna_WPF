@@ -32,5 +32,7 @@ function killerBeeStings(weight){ // set up function
     var stingsPerPound = 8.666666667;
     //calculate number of stings
     var numberOfStings = stingsPerPound * weight;
+    //return number of stings
+    return numberOfStings;
 
 }

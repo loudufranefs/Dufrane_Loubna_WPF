@@ -22,7 +22,7 @@ function calcCircumference(r) {
     return circumference;
 }
 //print result in console log
-console.log("The circumference of the circle is " + circCalc);
+console.log('The circumference of the circle is ' + circCalc + '.');
 
 //Stung!
 
@@ -37,3 +37,5 @@ function killerBeeStings(weight){ // set up function
     //return number of stings
     return numberOfStings;
 }
+// print result in console log
+console.log('It takes ' + stings + ' bee stings to kill this animal.');

@@ -27,6 +27,6 @@ console.log("The circumference of the circle is " + circCalc);
 //Stung!
 
 
-function killerBeeStings(){ // set up function
+function killerBeeStings(weight){ // set up function
 
 }

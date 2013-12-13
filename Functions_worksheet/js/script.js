@@ -29,3 +29,8 @@ private function calculateArea(w, h ):Number
 var radius = 5;
 //calculate circumference
 var circumference = 2 * 3.142 * radius;
+
+//setup function
+function calcCircumference(r) {
+
+}

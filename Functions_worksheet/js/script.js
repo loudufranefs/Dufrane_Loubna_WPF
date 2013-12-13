@@ -5,17 +5,15 @@ Class: Web Programming Fundamentals
 Assignment: Functions Worksheet
 */
 
-//Calculate the circumference of a circle.
+/* Calculate the circumference of a circle. */
 
 //pass argument into function
 var circCalc = calcCircumference(20);
 
 //setup function
 function calcCircumference(r) {
-    
-    // approximate pi
+   // approximate pi
     var pi = 3.14159;
-    
     //calculate circumference
     var circumference = 2 * pi * r;
     //return the calculation
@@ -24,7 +22,9 @@ function calcCircumference(r) {
 //print result in console log
 console.log('The circumference of the circle is ' + circCalc + '.');
 
-//Stung!
+
+
+/* Stung! */
 
 // set up argument
 var stings = killerBeeStings(135);

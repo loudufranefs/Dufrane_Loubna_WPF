@@ -12,3 +12,9 @@ Idea for wacky project is to decide which candy to give on Halloween based on th
 var age = prompt("How old are you?"),
     youngChildren = 9,
     candy;
+
+//check that prompt is not empty
+if (age == ""){
+    age = prompt("You forgot to say how old you are:");
+}
+

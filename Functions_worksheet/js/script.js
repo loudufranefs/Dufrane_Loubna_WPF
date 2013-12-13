@@ -8,7 +8,7 @@ Assignment: Functions Worksheet
 //Calculate the circumference of a circle.
 
 //pass argument into function
-var circCalc = calcCircumference(5);
+var circCalc = calcCircumference(20);
 
 //setup function
 function calcCircumference(r) {
@@ -18,4 +18,5 @@ function calcCircumference(r) {
     //return the calculation
     return circumference;
 }
-
+//print result in console log
+console.log("The circumference of the circle is " + circCalc);

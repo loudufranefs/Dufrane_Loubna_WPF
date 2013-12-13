@@ -8,3 +8,7 @@ Assignment: Conditionals - Wacky
 /*
 Idea for wacky project is to decide which candy to give on Halloween based on the child's age.
 */
+
+var age = prompt("How old are you?"),
+    youngChildren = 9,
+    candy;

@@ -26,6 +26,8 @@ console.log("The circumference of the circle is " + circCalc);
 
 //Stung!
 
+// set up argument
+var stings = killerBeeStings(135);
 
 function killerBeeStings(weight){ // set up function
     //set up stings per pound
@@ -34,5 +36,4 @@ function killerBeeStings(weight){ // set up function
     var numberOfStings = stingsPerPound * weight;
     //return number of stings
     return numberOfStings;
-
 }

@@ -21,4 +21,7 @@ if (age == ""){
 // Decide which candy the child gets depending on the age
 candy = (age < youngChildren) ? ("You will get lollipops!") :("You will get Jelly Beans!");
 
+//print the message with the right candy
+console.log(candy);
+
 

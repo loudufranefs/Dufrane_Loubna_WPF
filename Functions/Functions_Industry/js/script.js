@@ -16,5 +16,7 @@ var productPrice = prompt("How much are you charging for the product?");
 
 //calculate how much the product costs in development hours
 var productCost = developmentHours * hourly;
+//calculate sales in profit value
+var totalSales = sales * productPrice;
 
 

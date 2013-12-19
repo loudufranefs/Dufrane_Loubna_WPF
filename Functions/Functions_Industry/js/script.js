@@ -20,3 +20,8 @@ var productCost = developmentHours * hourly;
 var totalSales = sales * productPrice;
 
 
+if (productCost < totalSales){ // if sales are more than product cost
+    console.log("Awesome! You are in profit zone!!!");
+}
+
+

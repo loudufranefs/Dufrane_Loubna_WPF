@@ -34,5 +34,6 @@ function profits(developmentHours, hourly, sales, productPrice){
         //profit message if there are no profits
         profitMessage = "You haven't made a profit yet, keep trying!!";
     }
-    
+    //returns this message from statement
+    return profitMessage;
 }

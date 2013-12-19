@@ -7,3 +7,6 @@ Assignment: Functions Personal
 Description: Dog Food
 How many days would a bag of dog food last based on the size of the bag and the amount of food that is given to the dog each day. I have 2 dogs, and never remember how long a bag lasts for my dogs.
 */
+
+// How much dog food does the bag hold
+var dogFood = prompt("How many pounds of dog food does the bag hold?");

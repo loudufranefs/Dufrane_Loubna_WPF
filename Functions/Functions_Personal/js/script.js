@@ -14,3 +14,10 @@ var dogFood = prompt("How many pounds of dog food does the bag hold?");
 var dailyIntake =  prompt("How much food does 1 dog eat per day? (in cups)");
 //how many dogs eat from this bag of dog food
 var dogs = prompt("How many dogs are there?");
+
+
+//create function
+function dogFoodDays(){
+
+
+}

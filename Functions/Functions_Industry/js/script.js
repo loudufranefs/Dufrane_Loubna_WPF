@@ -37,3 +37,9 @@ function profits(developmentHours, hourly, sales, productPrice){
     //returns this message from statement
     return profitMessage;
 }
+
+//invoke function
+var profitsMade = profits(developmentHours, hourly, sales, productPrice);
+
+// print in console log
+console.log(profitsMade);

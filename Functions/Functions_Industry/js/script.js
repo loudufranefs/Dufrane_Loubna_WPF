@@ -24,9 +24,11 @@ if (productCost < totalSales){ // if sales are more than product cost
     //print message
     console.log("Awesome! You are in profit zone!!!");
 } else if (productCost === totalSales){ // if sales and cost equal each other
-    //print message to keep trying
-     console.log("Looks like you broke even, keep trying!!");
-
+    //print message 
+     console.log("Looks like you broke even, but you are SO close...");
+} else { // if there are no profits 
+    // print message to keep trying
+    console.log("You haven't made a profit yet, keep trying!!");
 }
 
 

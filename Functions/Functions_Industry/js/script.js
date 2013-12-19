@@ -14,21 +14,26 @@ var hourly = prompt("How much do you charge per hour in USD?");
 var sales = prompt("How many sales so far?");
 var productPrice = prompt("How much are you charging for the product?");
 
-//calculate how much the product costs in development hours
-var productCost = developmentHours * hourly;
-//calculate sales in profit value
-var totalSales = sales * productPrice;
-
-
-if (productCost < totalSales){ // if sales are more than product cost
-    //print message
-    console.log("Awesome! You are in profit zone!!!");
-} else if (productCost === totalSales){ // if sales and cost equal each other
-    //print message 
-     console.log("Looks like you broke even, but you are SO close...");
-} else { // if there are no profits 
-    // print message to keep trying
-    console.log("You haven't made a profit yet, keep trying!!");
+//function
+function profits(developmentHours, hourly, sales, productPrice){
+    
+    //calculate how much the product costs in development hours
+    var productCost = developmentHours * hourly;
+    //calculate sales in profit value
+    var totalSales = sales * productPrice;
+    
+    
+    if (productCost < totalSales){ // if sales are more than product cost
+        //print message
+        console.log("Awesome! You are in profit zone!!!");
+    } else if (productCost === totalSales){ // if sales and cost equal each other
+        //print message 
+         console.log("Looks like you broke even, but you are SO close...");
+    } else { // if there are no profits 
+        // print message to keep trying
+        console.log("You haven't made a profit yet, keep trying!!");
+    }
+    
 }
 
 

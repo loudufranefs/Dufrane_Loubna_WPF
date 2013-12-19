@@ -31,4 +31,10 @@ function dogFoodDays(dogfood, dailyIntake, dogs) {
     
     //convert cups to pounds
     dailyIntake = Number(dailyIntake) * 0.52159;
+    //make calculation
+    var totalDays = Number(dogfood) / Number(dailyIntake) * Number(dogs);
+    return totalDays;
+
 }
+//contain function in a new variable for output
+var amountOfDays = dogFoodDays(dogFood, dailyIntake, dogs);

@@ -21,7 +21,12 @@ var totalSales = sales * productPrice;
 
 
 if (productCost < totalSales){ // if sales are more than product cost
+    //print message
     console.log("Awesome! You are in profit zone!!!");
+} else if (productCost === totalSales){ // if sales and cost equal each other
+    //print message to keep trying
+     console.log("Looks like you broke even, keep trying!!");
+
 }
 
 

@@ -16,17 +16,17 @@ var dailyIntake =  prompt("How much food does 1 dog eat per day? (in cups)");
 var dogs = prompt("How many dogs are there?");
 
 //validate variable
-    if(dogFood == ''){
+if(dogFood == ''){
         dogFood = prompt("You forgot to add how many pounds of food are in your bag of food.");
-    }
+}
 
 if(dailyIntake == ''){
         dailyIntake =  prompt("How much food does 1 dog eat per day? (in cups)");
-    }
+}
 
 if(dogs == ''){
        dogs = prompt("How many dogs are there?");
-    }
+}
 
 //contain function in a new variable for output
 var amountOfDays = dogFoodDays(dogFood, dailyIntake, dogs);
@@ -36,7 +36,6 @@ console.log("This bag of dog food will last " + amountOfDays + " days!");
 
 //create function
 function dogFoodDays(dogfood, dailyIntake, dogs) {
-    
     //convert cups to pounds
     dailyIntake = Number(dailyIntake) * 0.52159;
     //make calculation

@@ -29,5 +29,6 @@ function dogFoodDays(dogfood, dailyIntake, dogs) {
        dogs = prompt("How many dogs are there?");
     }
     
-
+    //convert cups to pounds
+    dailyIntake = Number(dailyIntake) * 0.52159;
 }

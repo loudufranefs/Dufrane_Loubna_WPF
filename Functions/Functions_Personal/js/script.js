@@ -17,7 +17,17 @@ var dogs = prompt("How many dogs are there?");
 
 
 //create function
-function dogFoodDays(){
-
+function dogFoodDays(dogfood, dailyIntake, dogs) {
+    //validate variable
+    if(dogfood ===''){
+        dogFood = prompt("How many pounds of dog food does the bag hold?");
+    }
+    if(dailyIntake ===''){
+        dailyIntake =  prompt("How much food does 1 dog eat per day? (in cups)");
+    }
+    if(dogs ===''){
+       dogs = prompt("How many dogs are there?");
+    }
+    
 
 }

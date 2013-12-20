@@ -26,7 +26,9 @@ var giftCert = prompt("Who is this gift certificate for? \nType A for an adult, 
 
 
 function giftCertificate(){
-// condition
-    giftBudgetMessage = (giftCert === "C") ? "This gift certificate is for a child." : "This gift certificate is for an adult";
-
+    // condition
+    giftBudgetMessage = (giftCert === "C") ? "This gift certificate is for a child." : "This gift certificate is for an adult.";
+    
+    //return message
+    return giftBudgetMessage;
 }

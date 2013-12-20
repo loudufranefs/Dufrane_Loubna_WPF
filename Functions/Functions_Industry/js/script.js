@@ -15,19 +15,19 @@ var sales = prompt("How many sales so far?");
 var productPrice = prompt("How much are you charging for the product?");
 
 //validation
-if(developmentHours != isNaN){
+if(developmentHours ===''){
     developmentHours = prompt("You forgot to fill in this field: \nHow many development hours went into this product?");
 }
 
-if(hourly != isNaN){
+if(hourly ===''){
     prompt("You forgot to fill in this field: \nHow much do you charge per hour in USD?");
 }
 
-if(sales != isNaN){
+if(sales ===''){
     prompt("You forgot to fill in this field: \nHow many sales so far?");
 }
 
-if(productPrice != isNaN){
+if(productPrice ===''){
     productPrice = prompt("You forgot to fill in this field: \nHow much are you charging for the product?");
 }
 

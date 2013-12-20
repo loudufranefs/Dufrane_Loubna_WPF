@@ -4,4 +4,6 @@ Date: Dec 19 2013
 Class: Web Programming Fundamentals
 Assignment: Functions Wacky
 
+Description: Find out how much to spend on christmas gifts based on budget.
+
 */

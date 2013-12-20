@@ -4,15 +4,13 @@ Date: Dec 19 2013
 Class: Web Programming Fundamentals
 Assignment: Functions Wacky
 
-Description: Find out how much to spend on christmas gifts based on budget.
+Description: Find out how much to spend on a gift certificate
 
 */
 
 //budget
 var budget = prompt("What is your Christmas budget this year?");
-//how many adults
-var adults = prompt("How many adults do you need to by a gift for?");
-//how many children
-var children = prompt("How many children do you need to by a gift for?");
 //how much of the budget for adults
-var adultsBudget = ("What percentage do you want to spend on adults?")
+var adults = prompt("What percentage do you want to spend on adults?");
+//how much of the budget for children
+var children = prompt("What percentage do you want to spend on Children?");

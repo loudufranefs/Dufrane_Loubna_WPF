@@ -25,7 +25,7 @@ var adultBudget = budget / 100 * children;
 var giftCert = prompt("Who is this gift certificate for? \nType A for an adult, or C for a child. ");
 
 
-function giftCertificate(){
+function giftCertificate(budget, adults, children, giftCert){
     // condition
     giftBudgetMessage = (giftCert === "C") ? "This gift certificate is for a child." : "This gift certificate is for an adult.";
     

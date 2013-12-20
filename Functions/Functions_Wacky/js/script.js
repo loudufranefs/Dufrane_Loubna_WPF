@@ -24,6 +24,20 @@ var childBudget = budget / 100 * children;
 //Who the gift is for
 var giftCert = prompt("Who is this gift certificate for? \nType A for an adult, or C for a child. ");
 
+//validation
+if (budget == ''){
+    budget = prompt("You forgot to fill out: \nWhat is your Christmas budget this year?");
+}
+if (adults == ''){
+    adults = prompt("You forgot to fill out: \nWhat percentage do you want to spend on adults?");
+}
+if (children == ''){
+    children = prompt("You forgot to fill out: \nWhat percentage do you want to spend on Children?");
+}
+if (giftCert == ''){
+    giftCert = prompt("You forgot to fill out: \nWho is this gift certificate for? \nType A for an adult, or C for a child. ");
+}
+
 
 function giftCertificate(budget, adults, children, giftCert){
     // condition

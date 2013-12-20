@@ -14,6 +14,25 @@ var hourly = prompt("How much do you charge per hour in USD?");
 var sales = prompt("How many sales so far?");
 var productPrice = prompt("How much are you charging for the product?");
 
+//validation
+if(developmentHours != isNaN){
+    developmentHours = prompt("You forgot to fill in this field: \nHow many development hours went into this product?");
+}
+
+if(hourly != isNaN){
+    prompt("You forgot to fill in this field: \nHow much do you charge per hour in USD?");
+}
+
+if(sales != isNaN){
+    prompt("You forgot to fill in this field: \nHow many sales so far?");
+}
+
+if(productPrice != isNaN){
+    productPrice = prompt("You forgot to fill in this field: \nHow much are you charging for the product?");
+}
+
+
+
 //function
 function profits(developmentHours, hourly, sales, productPrice) {
 

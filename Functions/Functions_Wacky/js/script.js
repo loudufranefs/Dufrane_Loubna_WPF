@@ -14,3 +14,5 @@ var budget = prompt("What is your Christmas budget this year?");
 var adults = prompt("How many adults do you need to by a gift for?");
 //how many children
 var children = prompt("How many children do you need to by a gift for?");
+//how much of the budget for adults
+var adultsBudget = ("What percentage do you want to spend on adults?")
